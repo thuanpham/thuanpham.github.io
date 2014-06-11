@@ -53,6 +53,9 @@ nav a:focus {
 #home a:hover {
 	background: url("../img/b2.png") no-repeat left center;
 }
+#contact1 a:hover {
+	background: url("../img/b2.png") no-repeat left center;
+}
 
 #gal a:hover {
 	background: url("../img/b2.png") no-repeat left center;
