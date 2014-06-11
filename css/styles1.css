@@ -1,0 +1,64 @@
+/* Your Website Styles */
+nav li {
+  list-style: none;
+ float: left;
+  margin: 0 4px 0 4px;
+}
+body {
+	background: url("../img/bg.png");
+}
+h1{
+	color: gold;
+}
+h2{
+	font-family: 'Open Sans', 'sans-serif';
+	font-size: 26px;
+	color: blue;
+	
+}
+h3{
+	color: red;
+}
+h6{
+	font-size: 20px;
+}
+
+img{
+	float: left;
+	clear: left;
+}
+
+nav a:link,
+nav a:visited  {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+nav a:hover,
+nav a:active {
+	color: rgb(13, 202, 250);
+}
+nav a:focus {
+  border: 1px dotted #000;
+}
+
+#po a:hover {
+	background: url("../img/b1.png") no-repeat left center;
+}
+
+#bio a:hover {
+	background: url("../img/b2.png") no-repeat left center;
+}
+#home a:hover {
+	background: url("../img/b2.png") no-repeat left center;
+}
+
+#gal a:hover {
+	background: url("../img/b2.png") no-repeat left center;
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

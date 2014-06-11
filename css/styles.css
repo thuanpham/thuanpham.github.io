@@ -1,0 +1,105 @@
+/* Your Website Styles */
+
+body{
+  background: url("../img/bg.jpg");
+}
+
+nav li {
+  
+ float: left;
+  margin: 0 4px 0 4px;
+  list-style: none;
+  color: red;
+}
+nav a:link,
+nav a:visited  {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+nav a:hover,
+nav a:active {
+  color: rgb(13, 202, 250);
+}
+nav a:focus {
+  border: 1px dotted #000;
+}
+
+
+
+h1{
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+ img {
+  border: 10px solid #fff;
+  width: 40%;
+  max-width: 40%;
+}
+#bio a:hover {
+  background: url("../img/b2.png") no-repeat left center;
+}
+#home a:hover {
+  background: url("../img/b2.png") no-repeat left center;
+}
+
+
+
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+ /* background: #4d87e2;*/
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #000;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100s;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
